@@ -8,6 +8,6 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <bundledKeymap file="keymap.xml"/>
+        <bundledKeymap file="JingBh.xml"/>
     </extensions>
 </idea-plugin>
