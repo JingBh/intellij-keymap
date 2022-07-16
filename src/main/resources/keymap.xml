@@ -1,0 +1,20 @@
+<keymap version="1" name="JingBh's Keymap" parent="$default">
+    <action id="$Redo">
+        <keyboard-shortcut first-keystroke="ctrl y" />
+    </action>
+    <action id="$Undo">
+        <keyboard-shortcut first-keystroke="ctrl z" />
+    </action>
+    <action id="CloseContent">
+        <keyboard-shortcut first-keystroke="ctrl w" />
+    </action>
+    <action id="ContextHelp" />
+    <action id="EditorDeleteLine" />
+    <action id="EditorSelectWord" />
+    <action id="QuickJavaDoc">
+        <mouse-shortcut keystroke="alt button2" />
+        <keyboard-shortcut first-keystroke="f1" />
+    </action>
+    <action id="SmartSelect" />
+    <action id="UsageFiltering.WriteAccess" />
+</keymap>

@@ -1,13 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>io.github.jingbh.intellijkeymap</id>
-    <name>intellij-keymap</name>
+    <name>JingBh's Keymap</name>
     <vendor>JingBh</vendor>
     <category>Keymap</category>
 
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-
+        <bundledKeymap file="keymap.xml"/>
     </extensions>
 </idea-plugin>
